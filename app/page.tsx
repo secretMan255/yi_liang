@@ -101,7 +101,7 @@ export default function Portfolio() {
       title: "Metel Hardware Company Landing Page",
       description:
         "A landing page introduce a metel hardware company",
-      tech: ["VueJs", "Typescript", "NodeJs", "Vuetify", "TEST"],
+      tech: ["VueJs", "Typescript", "NodeJs", "Vuetify"],
       github: "https://github.com/secretMan255/Hardware-portal"
     },
     {
