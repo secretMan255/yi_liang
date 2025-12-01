@@ -91,6 +91,7 @@ export default function Portfolio() {
     tools: [
       { name: "Docker" },
       { name: "Google Cloud" },
+      { name: "AWS EC2" },
       { name: "Git" },
       { name: "Linux" },
     ],
@@ -98,25 +99,25 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Metel Hardware Company Landing Page",
+      title: "POS System Admin Portal",
       description:
-        "A landing page introduce a metel hardware company",
-      tech: ["VueJs", "Typescript", "NodeJs", "Vuetify"],
-      github: "https://github.com/secretMan255/Hardware-portal"
+        "A POS system admin portal that allow admin to track stock and sales etc...",
+      tech: ["ReactJs", "Tailwind CSS", "Shadcn UI", "Typescript"],
+      github: "https://github.com/chhsBusinessSolution/pos_sys_admin_portal"
     },
     {
       title: "ExpressJS & RestFul API Backend",
       description:
-        "A backend service template",
-      tech: ["NodeJs", "ExpressJs", "Restful API", "Typescript"],
-      github: "https://github.com/secretMan255/api.service.template"
+        "A expressJs and restful api backend service (similar with NextJs)",
+      tech: ["NodeJs", "ExpressJs", "Restful API", "Typescript", "Mysql"],
+      github: "https://github.com/chhsBusinessSolution/pos_sys_backend"
     },
     {
-      title: "Admin Portal",
+      title: "Gemini Agent ChatBot",
       description:
-        "A admin portal that allow user manage their stock",
-      tech: ["NextJs", "Typescript", "Axios", "NodeJs"],
-      github: "https://github.com/secretMan255/hardware-admin-portal"
+        "A TypeScript + Node.js Express service that wraps the Google Gemini API to provide a simple chat/agent endpoint",
+      tech: ["NodeJs", "Typescript", "MonggoDB"],
+      github: "https://github.com/secretMan255/gemini_agent_chat_bot"
     },
   ]
 
